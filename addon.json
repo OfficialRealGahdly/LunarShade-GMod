@@ -1,0 +1,13 @@
+{
+	"title": "Lunar Shade",
+	"type": "tool",
+	"tags": ["fun"],
+	"ignore": [
+		"*.md",
+		"installer/*",
+		"LICENSE",
+		"*.bat",
+		"*.sh",
+		".git/*"
+	]
+}
