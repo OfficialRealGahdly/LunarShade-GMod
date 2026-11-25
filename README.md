@@ -1,5 +1,3 @@
-Here's the fully rewritten README with those sections removed, no update notification claims, no version numbers, and all the actual user-facing features retained.
-
 # Lunar Shade
 
 A dark interface theme for Garry's Mod with its own **Lunar Shade tab in the spawn menu**, a customisable settings panel, a custom main menu and pause menu, and a Derma skin that restyles menus built from standard Derma controls.
