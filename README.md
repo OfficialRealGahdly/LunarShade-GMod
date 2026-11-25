@@ -1,10 +1,14 @@
+I'd update this README to make it more accurate and professional. The biggest changes are removing the dark-theme-only wording, removing the NPC options box section since it was removed, and taking out the technical security details. I've kept the installation instructions because this is the main README.
+
 # Lunar Shade
 
-A dark interface theme for Garry's Mod with its own **Lunar Shade tab in the spawn menu**, a customisable settings panel, a custom main menu and pause menu, and a Derma skin that restyles menus built from standard Derma controls.
+Lunar Shade is a customizable interface overhaul for Garry's Mod. It includes its own spawn menu tab, custom main menu, pause menu, and a wide range of appearance and layout options.
 
-Made by **OfficialRealGahdly**.
+Customize your interface with different colours, surface styles, backgrounds, and layouts to make Garry's Mod look the way you want.
 
-Client-side only · Works with Sandbox and Sandbox-derived gamemodes.
+**Made by OfficialRealGahdly**
+
+Client-side only · Designed for Sandbox and Sandbox-derived gamemodes.
 
 ---
 
@@ -12,56 +16,56 @@ Client-side only · Works with Sandbox and Sandbox-derived gamemodes.
 
 ### Interface and appearance
 
-- **Complete dark theme.** Give supported Garry's Mod menus a consistent dark appearance.
-- **Spawn menu tab.** Press `Q` to find Lunar Shade alongside Spawnlists, Weapons, Entities and the other spawn menu tabs.
-- **Settings panel.** Enable or disable the theme and customise its appearance.
-- **Accent colours.** Choose from six presets or create your own colour using the custom colour mixer.
-- **Surface tones.** Choose between Midnight, Obsidian and Slate.
-- **Interface styling.** Adjust corner roundness, window accent lines and animations.
-- **Live preview.** See appearance changes as you make them.
-- **Derma skin.** Restyles standard Derma frames, buttons, text boxes, checkboxes, combo boxes, sliders, tabs, scroll bars, lists, trees, menus and tooltips.
-- **Compatibility.** Panels that another addon deliberately skins are left alone rather than forcibly restyled.
+- **Customizable appearance:** Change the look of supported Garry's Mod menus.
+- **Lunar Shade tab:** Access Lunar Shade directly from the spawn menu by pressing `Q`.
+- **Settings panel:** Manage the theme and customize its appearance.
+- **Accent colours:** Choose from six presets or create your own colours.
+- **Surface styles:** Choose between Midnight, Obsidian, and Slate.
+- **Interface styling:** Adjust corner roundness, window accent lines, and animations.
+- **Live preview:** See appearance changes as you make them.
+- **Derma skin:** Restyles standard Derma frames, buttons, text boxes, checkboxes, combo boxes, sliders, tabs, scroll bars, lists, trees, menus, and tooltips.
+- **Compatibility:** Panels that another addon deliberately skins are left alone rather than forcibly restyled.
 
-### Customisation
+### Customization
 
 The Custom page gives you control over the appearance and layout of Lunar Shade.
 
 - Move and resize the main menu logo and button column.
 - Reorder main menu buttons.
 - Hide main menu buttons.
-- Move, rename and reorder Q menu tabs.
-- Hide Q menu tabs. The Lunar Shade tab itself can never be hidden.
+- Move, rename, and reorder spawn menu tabs.
+- Hide spawn menu tabs. The Lunar Shade tab cannot be hidden.
 - Change individual interface colours.
 - Use the colour mixer or enter hexadecimal colour codes.
 - Reset individual colours to their defaults.
 - Preview your custom layout before using it.
 
-The main-menu **Options > Custom** page provides the same main menu layout, button and colour controls without needing to start a game.
+The main-menu **Options > Custom** page provides main menu layout, button, and colour controls without needing to start a game.
 
 Options itself can never be hidden, so you can always access your settings.
 
-Q menu tab customisation is available in-game through the Lunar Shade tab.
+Spawn menu tab customization is available in-game through the Lunar Shade tab.
 
 ### Main menu
 
-Lunar Shade includes its own custom main menu.
+Lunar Shade includes its own customizable main menu.
 
 - Animated night sky.
 - Spinning moon.
 - Custom accent colours.
-- Customisable logo and button positions.
+- Customizable logo and button positions.
 - Reorderable and hideable menu buttons.
-- Custom background options.
-- Classic menu button to return to the original main menu.
+- Multiple background options.
+- Option to return to the original main menu.
 
-The background can be changed to:
+Available backgrounds:
 
 - **Night sky:** The original animated background.
-- **No stars:** Moon and hills without stars, aurora or shooting stars.
+- **No stars:** Moon and hills without stars, aurora, or shooting stars.
 - **Gradient:** A background using two colours of your choice.
 - **Plain:** A single-colour background.
 
-Plain and Gradient backgrounds stop the background animation to minimise drawing overhead.
+Plain and Gradient backgrounds stop the background animation to minimize drawing overhead.
 
 ### Pause menu
 
@@ -82,17 +86,19 @@ The pause menu uses your Lunar Shade styling and can be disabled from the Main m
 
 ### Layout preview
 
-The layout preview lets you see your customised title screen without leaving your current game.
+Preview your customized title screen without leaving your current game.
 
-It includes:
+The preview includes:
 
-- Your custom logo and button positions.
-- Your button order and visibility settings.
-- Your selected background.
-- Your custom colours.
-- A switch between the main menu and pause menu previews.
+- Custom logo and button positions.
+- Button order and visibility.
+- Selected background.
+- Custom colours.
+- Main menu and pause menu previews.
 
-You can open the preview using the Custom page or the `lunar_shade_menu_preview` console command.
+Open the preview from the Custom page or by using:
+
+`lunar_shade_menu_preview`
 
 ### Saved themes
 
@@ -105,45 +111,25 @@ Saved themes can include:
 - Interface shape.
 - Individual colours.
 - Main menu layout.
-- Q menu tab order, names and visibility.
+- Spawn menu tab order, names, and visibility.
 
-You can name your themes, switch between them, undo a switch and copy a theme code to share with someone else.
-
-### NPC options
-
-Common NPC options are available in a small box in the spawn menu.
-
-These include:
-
-- Disable Thinking
-- Ignore Players
-- Keep Corpses
-- Join Player's Squad
-- Weapon Override
-
-The NPC options box can be disabled from the Custom page.
-
-It appears on spawn menu tabs except Spawnlists, where the NPC controls are already available.
+You can name themes, switch between them, undo a switch, and copy a theme code to share with others.
 
 ### Welcome tours
 
-Lunar Shade includes welcome walkthroughs to help new users understand the interface.
+Lunar Shade includes walkthroughs to help new users understand its features.
 
-- A main-menu welcome tour.
-- An in-game welcome tour using the same visual design.
+- Main menu welcome tour.
+- In-game welcome tour with the same visual design.
 - Numbered steps and navigation indicators.
-- A Skip tour button.
-- A Finish button to close the walkthrough.
-
-The tour normally appears on first launch and can be replayed from the main menu or the Tools page.
+- Skip and Finish buttons.
+- Option to replay the walkthrough from the main menu or Tools page.
 
 ### Automatic settings saving
 
-Lunar Shade automatically saves customisation changes.
+Lunar Shade automatically saves customization changes.
 
-Changes are written to the game's configuration after a short delay, rather than waiting for the game to close normally.
-
-This helps preserve settings if the game closes unexpectedly.
+Changes are written to the game's configuration after a short delay instead of waiting for the game to close.
 
 ---
 
@@ -160,24 +146,21 @@ This helps preserve settings if the game closes unexpectedly.
 
    If you see `LunarShade/LunarShade/`, move the inner folder up one level.
 5. Start Garry's Mod and load a Sandbox map.
-6. Press `Q` and look for the Lunar Shade tab in the top strip.
+6. Press `Q` and look for the Lunar Shade tab.
 
 ### Part 2: Install the custom main menu and pause menu
 
 This is a one-time installation step.
 
-Garry's Mod does not allow ordinary addons to draw directly in the main menu or pause menu. Lunar Shade therefore includes an installer that makes a small change to your own copy of:
+Garry's Mod does not allow ordinary addons to draw directly in the main menu or pause menu. Lunar Shade includes an installer that makes a small change to your copy of:
 
 `garrysmod/lua/menu/menu.lua`
-
-The installer adds a single line at the top of the file to load Lunar Shade's menu code.
 
 **Windows:**
 
 1. Close Garry's Mod.
 2. Double-click `Install-MainMenu.bat` in the addon folder.
-3. The installer runs `installer/mainmenu.ps1`.
-4. You can open and inspect the PowerShell script before running it.
+3. Follow the installer instructions.
 
 **macOS / Linux:**
 
@@ -193,16 +176,14 @@ Restart Garry's Mod after installation.
 
 **Important:** Re-run the installer after updating Lunar Shade or after a Garry's Mod update. Game updates can overwrite `menu.lua` and remove the added line.
 
-To uninstall the main-menu integration:
+To uninstall the main menu integration:
 
 - Windows: Run `Uninstall-MainMenu.bat`.
 - macOS / Linux: Run `bash Install-MainMenu.sh --uninstall`.
 
-The uninstaller removes the added line and restores the original state of the menu file.
-
 ### Dedicated servers
 
-Part 1 can also be installed in the dedicated server's `addons` folder.
+Part 1 can also be installed in a dedicated server's `addons` folder.
 
 Part 2 is client-side only.
 
@@ -210,16 +191,16 @@ Part 2 is client-side only.
 
 ## Using Lunar Shade
 
-| Section              | Description                                                                                                             |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Appearance**       | Enable or disable the theme, choose an accent colour and select a surface tone.                                         |
-| **Custom**           | Move and resize the main menu logo and buttons, change button order, customise Q menu tabs and edit individual colours. |
-| **Options > Custom** | Access main menu layout, button and colour controls from the title screen or pause menu.                                |
-| **Themes**           | Save your appearance, switch between saved themes, undo a switch and share theme codes.                                 |
-| **Interface**        | Adjust corner roundness, accent lines, animations and live preview.                                                     |
-| **Main menu**        | Customise the title screen and pause menu.                                                                              |
-| **Tools**            | Reapply the theme, reload the spawn menu, open Lunar Shade as a window or reset settings.                               |
-| **About**            | View information about Lunar Shade and its current status.                                                              |
+| Section              | Description                                                                                |
+| -------------------- | ------------------------------------------------------------------------------------------ |
+| **Appearance**       | Enable or disable the theme, choose an accent colour, and select a surface style.          |
+| **Custom**           | Adjust the main menu layout, button order, spawn menu tabs, and individual colours.        |
+| **Options > Custom** | Access main menu layout, button, and colour controls from the title screen or pause menu.  |
+| **Themes**           | Save appearances, switch between themes, undo a switch, and share theme codes.             |
+| **Interface**        | Adjust corner roundness, accent lines, animations, and live preview.                       |
+| **Main menu**        | Customize the title screen and pause menu.                                                 |
+| **Tools**            | Reapply the theme, reload the spawn menu, open Lunar Shade as a window, or reset settings. |
+| **About**            | View information about Lunar Shade and its current status.                                 |
 
 ---
 
@@ -227,25 +208,23 @@ Part 2 is client-side only.
 
 Open the Garry's Mod console using `~`.
 
-| Command                    | Purpose                                                      |
-| -------------------------- | ------------------------------------------------------------ |
-| `lunar_shade_diag`         | Display diagnostic information.                              |
-| `lunar_shade_verify`       | Check the installed Lunar Shade files.                       |
-| `lunar_shade_doctor`       | Check the main menu installation.                            |
-| `lunar_shade_apply`        | Reapply the Derma skin.                                      |
-| `lunar_shade_reset`        | Reset Lunar Shade settings.                                  |
-| `lunar_shade_open`         | Open the Lunar Shade tab.                                    |
-| `lunar_shade_window`       | Open Lunar Shade as a window.                                |
-| `lunar_shade_reload_menu`  | Rebuild the spawn menu.                                      |
-| `lunar_shade_menu_preview` | Preview the customised title screen.                         |
-| `lunar_shade_tutorial`     | Replay the welcome tour.                                     |
-| `lunar_shade_npcbar`       | Check the NPC options box.                                   |
-| `lunar_shade_tabs_reset`   | Restore the original Q menu tab order, names and visibility. |
-| `lunar_shade_status`       | Display online status information.                           |
+| Command                    | Purpose                                                           |
+| -------------------------- | ----------------------------------------------------------------- |
+| `lunar_shade_diag`         | Display diagnostic information.                                   |
+| `lunar_shade_doctor`       | Check the main menu installation.                                 |
+| `lunar_shade_apply`        | Reapply the Derma skin.                                           |
+| `lunar_shade_reset`        | Reset Lunar Shade settings.                                       |
+| `lunar_shade_open`         | Open the Lunar Shade tab.                                         |
+| `lunar_shade_window`       | Open Lunar Shade as a window.                                     |
+| `lunar_shade_reload_menu`  | Rebuild the spawn menu.                                           |
+| `lunar_shade_menu_preview` | Preview the customized title screen.                              |
+| `lunar_shade_tutorial`     | Replay the welcome tour.                                          |
+| `lunar_shade_tabs_reset`   | Restore the original spawn menu tab order, names, and visibility. |
+| `lunar_shade_status`       | Display online status information.                                |
 
 ### Online settings
 
-Online checking can be disabled at any time using:
+Online checking can be disabled using:
 
 `lunar_shade_online 0`
 
@@ -257,19 +236,19 @@ To view the current online status, run:
 
 ## Online checking and privacy
 
-Lunar Shade can connect to an online service to check for information about the installed version and display important notices.
+Lunar Shade can connect to an online service to check the status of the installed version.
 
 The online check sends the installed Lunar Shade version and a randomly generated installation ID.
 
 It does not send your Steam ID or Steam username.
 
-The hosting provider may see your IP address when Lunar Shade connects, just like any website.
+The hosting provider may see your IP address when Lunar Shade connects, just like a website.
 
 Online checking can be disabled at any time using:
 
 `lunar_shade_online 0`
 
-If the online service cannot be reached, Lunar Shade continues without receiving updated online information.
+If the online service cannot be reached, Lunar Shade continues to work without updated online status information.
 
 ---
 
@@ -290,21 +269,13 @@ If the online service cannot be reached, Lunar Shade continues without receiving
 3. Restart Garry's Mod.
 4. Run `lunar_shade_doctor` if the menu still does not appear.
 
-### The installed files fail verification
-
-Run:
-
-`lunar_shade_verify`
-
-If the problem continues, download Lunar Shade again from its official release page, replace the existing addon folder and run the main-menu installer again.
-
 ### Online checking does not work
 
 Run:
 
 `lunar_shade_status`
 
-If the online service cannot be reached, Lunar Shade continues without receiving updated online information.
+If the online service cannot be reached, Lunar Shade continues without updated online status information.
 
 ### Welcome tour does not appear
 
@@ -316,19 +287,19 @@ This manually starts the welcome walkthrough.
 
 ---
 
-## What Lunar Shade cannot theme
+## What Lunar Shade cannot customize
 
-Garry's Mod has certain interface areas that ordinary addons cannot fully customise.
+Some Garry's Mod interface areas cannot be fully customized by ordinary addons.
 
 These include:
 
-- Engine dialogs such as Options, Server Browser and New Game.
+- Engine dialogs such as Options, Server Browser, and New Game.
 - The HUD.
 - The chat box.
 - The console.
 - Addons that draw their own interfaces.
 - Panels where another addon forces its own skin.
-- HTML-based interfaces created independently by other addons.
+- Independent HTML interfaces created by other addons.
 
 Lunar Shade focuses on supported Derma interfaces and its own custom menus.
 
@@ -338,7 +309,7 @@ Lunar Shade focuses on supported Derma interfaces and its own custom menus.
 
 Lunar Shade is client-side and designed for Garry's Mod Sandbox and Sandbox-derived gamemodes.
 
-Its main-menu integration requires the included installer.
+Its main menu integration requires the included installer.
 
 Other addons that deliberately use their own interface skins may not be affected by Lunar Shade.
 
