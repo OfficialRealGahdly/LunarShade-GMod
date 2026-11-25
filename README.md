@@ -1,5 +1,3 @@
-I'd update this README to make it more accurate and professional. The biggest changes are removing the dark-theme-only wording, removing the NPC options box section since it was removed, and taking out the technical security details. I've kept the installation instructions because this is the main README.
-
 # Lunar Shade
 
 Lunar Shade is a customizable interface overhaul for Garry's Mod. It includes its own spawn menu tab, custom main menu, pause menu, and a wide range of appearance and layout options.
